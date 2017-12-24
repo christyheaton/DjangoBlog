@@ -1,7 +1,6 @@
 from django.test import TestCase
 from django.contrib.auth.models import User
-from myblog.models import Post
-from myblog.models import Category
+from myblog.models import Post, Category
 import datetime
 from django.utils.timezone import utc
 
